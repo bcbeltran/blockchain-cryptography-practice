@@ -1,4 +1,4 @@
-const {scrypt, createHash} = require('crypto');
+const {scrypt, createHash, randomBytes, } = require('crypto');
 
 function output(){
 
